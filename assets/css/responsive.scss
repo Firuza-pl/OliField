@@ -1,0 +1,252 @@
+// Variables
+$width-imperatives-col: 45%;
+$width-imperatives: 215px;
+$width-strategic: 205px;
+$width-target: 217px;
+$width-ultimate: 200px;
+
+$margin-auto: 0 auto;
+$margin-left-mission-icons: 62px;
+$height-facts-small: 661px !important;
+$font-size-policy-link: 12px !important;
+$margin-img-center: 20px 0;
+$margin-bottom-about-col: 36px;
+$margin-bottom-m50: 50px;
+$margin-left-left-two: 14px !important;
+
+$height-facts-medium: 535px !important;
+$height-text-top-medium: 320px !important;
+$height-text-top-small: 250px !important;
+
+@mixin hide-products-img {
+  display: none;
+}
+
+@mixin margin-zero-important {
+  margin: 0 !important;
+}
+
+@mixin text-align-center-important {
+  text-align: center !important;
+}
+
+@mixin float-none-important {
+  float: none !important;
+}
+
+@mixin margin-left-zero-important {
+  margin-left: 0 !important;
+}
+
+@media (min-width: 320px) and (max-width: 823px) {
+  .imperatives-col,
+  .strategic-col,
+  .ultimate-col {
+    width: $width-imperatives-col;
+    margin: $margin-auto;
+  }
+  .imperatives {
+    width: $width-imperatives;
+  }
+  .strategic {
+    width: $width-strategic;
+  }
+  .target {
+    width: $width-target;
+  }
+  .ultimate {
+    width: $width-ultimate;
+  }
+  /*
+  #skills {
+    height: 977px !important;
+  }
+  */
+  .mission-icons {
+    margin-left: $margin-left-mission-icons;
+  }
+  #facts {
+    height: $height-facts-small;
+  }
+
+  .policy {
+    a {
+      font-size: $font-size-policy-link;
+    }
+  }
+
+  .img-center {
+    text-align: center;
+    margin: $margin-auto $margin-img-center;
+  }
+
+  .about-col {
+    text-align: center;
+    margin-bottom: $margin-bottom-about-col;
+  }
+
+  .m-50 {
+    margin-bottom: $margin-bottom-m50;
+  }
+
+  #products {
+    .learn-more {
+      margin: 64px 0 !important;
+      @include text-align-center-important;
+    }
+  }
+}
+
+@media (min-width: 280px) and (max-width: 704px) {
+  #facts {
+    height: 759px !important;
+  }
+  .policy {
+    a {
+      font-size: $font-size-policy-link;
+    }
+  }
+}
+
+@media (min-width: 280px) and (max-width: 1024px) {
+  .oess-defined {
+    span {
+      @include float-none-important;
+    }
+    img {
+      @include float-none-important;
+    }
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  #products {
+    img {
+      @include hide-products-img;
+    }
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1260px) {
+  #products {
+    img {
+      @include hide-products-img;
+    }
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1026px) {
+  #products {
+    img {
+      @include hide-products-img;
+    }
+  }
+}
+
+@media (min-width: 540px) and (max-width: 720px) {
+  #products {
+    p {
+      margin-left: 138px;
+    }
+  }
+}
+
+@media (min-width: 280px) and (max-width: 823px) {
+  .mission-image,
+  #skills {
+    height: 100% !important;
+  }
+  #products {
+    h5 {
+      margin: 0 !important;
+      text-align: center !important;
+    }
+    .procurment {
+      p {
+        margin: 0 !important;
+      }
+    }
+  }
+  .left-two {
+    margin-left: $margin-left-left-two;
+  }
+  .m-29,
+  .m-67,
+  .left-two {
+    @include margin-left-zero-important;
+  }
+}
+
+@media (min-width: 704px) and (max-width: 1200px) {
+  #facts {
+    height: $height-facts-medium;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 768px) {
+  .col-img {
+    @include float-none-important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-top {
+    height: $height-text-top-medium;
+  }
+  .col-img {
+    float: right !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  #career {
+    height: 524px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+  .text-top {
+    height: $height-text-top-small;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer {
+    ul {
+      display: block;
+      li {
+        &:after {
+          content: "";
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 280px) and (max-width: 1020px) {
+  .col-img {
+    @include margin-zero-important;
+  }
+  #footer {
+    .improve {
+      @include margin-zero-important;
+    }
+  }
+  .policy-none {
+    @include float-none-important;
+  }
+  .txt-center {
+    text-align: center !important;
+  }
+  .feature-icon {
+    @include margin-left-zero-important;
+    text-align: center !important;
+  }
+  .lunch-text {
+    text-align: center !important;
+  }
+  .job-description {
+    margin: 31px 0 !important;
+  }
+}
