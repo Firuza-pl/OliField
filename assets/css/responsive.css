@@ -1,0 +1,169 @@
+@media (min-width: 320px) and (max-width: 823px) {
+  .imperatives-col,
+  .strategic-col,
+  .ultimate-col {
+    width: 45%;
+    margin: 0 auto;
+  }
+  .imperatives {
+    width: 215px;
+  }
+  .strategic {
+    width: 205px;
+  }
+  .target {
+    width: 217px;
+  }
+  .ultimate {
+    width: 200px;
+  }
+  /*
+  #skills {
+    height: 977px !important;
+  }
+  */
+  .mission-icons {
+    margin-left: 62px;
+  }
+  #facts {
+    height: 661px !important;
+  }
+  .policy a {
+    font-size: 12px !important;
+  }
+  .img-center {
+    text-align: center;
+    margin: 0 auto 20px 0;
+  }
+  .about-col {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .m-50 {
+    margin-bottom: 50px;
+  }
+  #products .learn-more {
+    margin: 64px 0 !important;
+    text-align: center !important;
+  }
+}
+@media (min-width: 280px) and (max-width: 704px) {
+  #facts {
+    height: 759px !important;
+  }
+  .policy a {
+    font-size: 12px !important;
+  }
+}
+@media (min-width: 280px) and (max-width: 1024px) {
+  .oess-defined {
+    margin-left: 0 !important;
+  }
+  .oess-defined span {
+    float: none !important;
+  }
+  .oess-defined img {
+    float: none !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  #products img {
+    display: none;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1260px) {
+  #products img {
+    display: none;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1026px) {
+  #products img {
+    display: none;
+  }
+}
+@media (min-width: 540px) and (max-width: 720px) {
+  #products p {
+    margin-left: 138px;
+  }
+}
+@media (min-width: 280px) and (max-width: 823px) {
+  .mission-image,
+  #skills {
+    height: 100% !important;
+  }
+  #products h5 {
+    margin: 0 !important;
+    text-align: center !important;
+  }
+  #products .procurment p {
+    margin: 0 !important;
+  }
+  .left-two {
+    margin-left: 14px !important;
+  }
+  .m-29,
+  .m-67,
+  .left-two {
+    margin-left: 0 !important;
+  }
+}
+@media (min-width: 704px) and (max-width: 1200px) {
+  #facts {
+    height: 535px !important;
+  }
+}
+@media (min-width: 280px) and (max-width: 768px) {
+  .col-img {
+    float: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-top {
+    height: 320px !important;
+  }
+  .col-img {
+    float: right !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  #career {
+    height: 524px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 568px) {
+  .text-top {
+    height: 250px !important;
+  }
+}
+@media (max-width: 991px) {
+  #footer ul {
+    display: block;
+  }
+  #footer ul li:after {
+    content: "";
+  }
+}
+@media (min-width: 280px) and (max-width: 1020px) {
+  .col-img {
+    margin: 0 !important;
+  }
+  #footer .improve {
+    margin: 0 !important;
+  }
+  .policy-none {
+    float: none !important;
+  }
+  .txt-center {
+    text-align: center !important;
+  }
+  .feature-icon {
+    margin-left: 0 !important;
+    text-align: center !important;
+  }
+  .lunch-text {
+    text-align: center !important;
+  }
+  .job-description {
+    margin: 31px 0 !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */
